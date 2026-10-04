@@ -1,0 +1,8 @@
+﻿[
+  {
+    "id": "g1", "clientId": "c1", "clientDisplayName": "SuperDocEditor",
+    "principalId": "u1", "principalUPN": "admin@contoso.example",
+    "scope": "Files.ReadWrite.All", "publisherVerified": false,
+    "appTenantId": "external-tenant-id", "createdDateTime": "2026-10-04T02:52:58.1913157Z"
+  }
+]

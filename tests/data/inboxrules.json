@@ -1,0 +1,23 @@
+﻿[
+  {
+    "id": "u1",
+    "userPrincipalName": "victim@contoso.example",
+    "rules": [
+      {
+        "id": "r1", "displayName": "ForwardingRule", "isEnabled": true,
+        "actions": { "forwardTo": [ { "emailAddress": { "address": "attacker@gmail.com" } } ] }
+      }
+    ]
+  },
+  {
+    "id": "u3",
+    "userPrincipalName": "finance@contoso.example",
+    "rules": [
+      {
+        "id": "r2", "displayName": "HideInvoices", "isEnabled": true,
+        "conditions": { "subjectContains": ["invoice"] },
+        "actions": { "delete": true }
+      }
+    ]
+  }
+]

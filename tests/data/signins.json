@@ -1,0 +1,8 @@
+﻿[
+  { "id": "1", "createdDateTime": "2026-10-04T02:47:58.1197864Z", "userPrincipalName": "victim@contoso.example", "userId": "u1", "ipAddress": "1.1.1.1", "status": { "errorCode": 50126 }, "location": { "countryOrRegion": "US" } },
+  { "id": "2", "createdDateTime": "2026-10-04T02:48:58.1263597Z", "userPrincipalName": "victim@contoso.example", "userId": "u1", "ipAddress": "1.1.1.1", "status": { "errorCode": 50126 }, "location": { "countryOrRegion": "US" } },
+  { "id": "3", "createdDateTime": "2026-10-04T02:49:58.1263597Z", "userPrincipalName": "victim@contoso.example", "userId": "u1", "ipAddress": "1.1.1.1", "status": { "errorCode": 50126 }, "location": { "countryOrRegion": "US" } },
+  { "id": "4", "createdDateTime": "2026-10-04T02:50:58.1263597Z", "userPrincipalName": "victim@contoso.example", "userId": "u1", "ipAddress": "1.1.1.1", "status": { "errorCode": 0 }, "location": { "countryOrRegion": "US" } },
+  { "id": "5", "createdDateTime": "2026-10-04T02:52:58.1263597Z", "userPrincipalName": "victim@contoso.example", "userId": "u1", "ipAddress": "2.2.2.2", "status": { "errorCode": 0 }, "location": { "countryOrRegion": "RU" } },
+  { "id": "6", "createdDateTime": "2026-10-04T02:52:58.1290175Z", "userPrincipalName": "legacy@contoso.example", "userId": "u2", "ipAddress": "3.3.3.3", "clientAppUsed": "IMAP4", "status": { "errorCode": 0 }, "location": { "countryOrRegion": "US" } }
+]
