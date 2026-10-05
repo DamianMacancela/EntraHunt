@@ -10,7 +10,7 @@ foreach ($import in @($private + $public)) {
     }
 }
 
-$cfgPath = Join-Path $PSScriptRoot 'Data' 'detections.psd1'
+$cfgPath = Join-Path $PSScriptRoot 'Data\detections.psd1'
 if (Test-Path $cfgPath) {
     $script:HuntConfig = Import-PowerShellDataFile -Path $cfgPath
 } else {
